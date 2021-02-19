@@ -11,7 +11,7 @@ import java.util.List;
         1.Handle CORS issue per : https://medium.com/@baphemot/understanding-cors-18ad6b478e2b
         2.Perform input validation
         3. Create a Web UI Application Component that does the following:
-            a. displays a web form tht allows users to input a max of 10 entries
+            a. displays a web form that allows users to input a max of 10 entries
             b. creates a button that has the reset form functionality
             c. creates a button that will submit the form to the RESTful service asynchronously
             d. displays the calculated result on the screen from the above call
