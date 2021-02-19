@@ -11,7 +11,6 @@ public class Calculate {
         return calculate(numbers);
     }
 
-
     public int calculateAverage(List<Number> numbers) {
         int average;
         int sum;
@@ -22,11 +21,9 @@ public class Calculate {
 
     int calculate(List<Number> numbers) {
         int sum = 0;
-
         for (Number num : numbers) {
             sum += num.intValue();
         }
         return sum;
     }
-
 }
