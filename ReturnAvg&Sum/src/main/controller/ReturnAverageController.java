@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/*TODO: Features to be implmented...
+/*TODO: Features to be implemented...
         1.Handle CORS issue per : https://medium.com/@baphemot/understanding-cors-18ad6b478e2b
         2.Perform input validation
         3. Create a Web UI Application Component that does the following:
