@@ -22,7 +22,7 @@ import java.util.List;
 public class ReturnAverageController {
     Calculate calculateService = new Calculate();
 
-    @RequestMapping("/sum")
+    @RequestMapping("/sum") 
     public int calculateSum(@RequestParam List<Number> numbersList) {
         return calculateService.calculateSum(numbersList);
     }
